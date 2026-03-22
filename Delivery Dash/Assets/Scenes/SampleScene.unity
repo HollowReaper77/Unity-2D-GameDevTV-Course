@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 315022391}
   - component: {fileID: 315022394}
   - component: {fileID: 315022396}
+  - component: {fileID: 315022397}
   m_Layer: 0
   m_Name: Eaty McDash
   m_TagString: Untagged
@@ -300,6 +301,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.3158519}
   m_EdgeRadius: 0
+--- !u!114 &315022397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315022390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ced23a766b786478da2dbdd802e400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Colllision
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,7 +394,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.2881774, g: 0.19215688, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
