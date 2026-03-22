@@ -6,4 +6,9 @@ public class Colllision : MonoBehaviour
     {
         Debug.Log("Ouch!");
     }
+
+    void OnTriggerEnter2D()
+    {
+        Debug.Log("What the heck was that?");
+    }
 }
